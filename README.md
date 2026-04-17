@@ -53,19 +53,21 @@ It explores multiple Natural Language Processing (NLP) techniques and compares d
 ## 📸 Project Preview
 
 **This is how it's interface looks**:
-[!img alt]
+
+![Alt image](https://github.com/riyakatiyar337-cpu/Movie-Review-Sentiment-Analysis/blob/79e427813bdf20ceffe0832a6c99ff44feb09b56/movie_review-demo.png)
+
 
 
 ## 📁 Project Structure
 
 movie-sentiment-analysis/
-│
-├── data/              # Dataset files
-├── notebooks/         # Jupyter notebooks
-├── src/               # Source code
-├── models/            # Saved models
-├── requirements.txt   # Dependencies
-└── README.md
+
+data/              # Dataset files
+notebooks/         # Jupyter notebooks
+src/               # Source code
+models/            # Saved models
+requirements.txt   # Dependencies
+README.md
 
 
 ##  Future Improvements
