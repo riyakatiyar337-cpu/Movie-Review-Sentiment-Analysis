@@ -1,33 +1,105 @@
-## Movie Review Sentiment Analysis
+# 🎬 Movie Review Sentiment Analysis
 
-#  Movie Sentiment Analysis using Machine Learning
+##  Overview
 
-## Short Description
-This project performs sentiment analysis on movie reviews using machine learning models like Naive Bayes, SVM, and Logistic Regression. It compares different text representation techniques such as TF-IDF, Bag of Words, and N-grams.
+This project builds a **machine learning-based sentiment analysis system** that classifies movie reviews as **positive** or **negative**.
+
+It explores multiple Natural Language Processing (NLP) techniques and compares different machine learning models to determine the most effective approach for text classification.
 
 
-##  Features
 
-- Multiple ML models implemented:
-  - Naive Bayes
-  - Support Vector Machine (SVM)
-  - Logistic Regression
-- Text preprocessing:
-  - Tokenization
-  - Stopword removal
-  - Lemmatization
-- Feature extraction:
-  - Bag of Words (BoW)
-  - TF-IDF
-  - Uni-grams & Bi-grams
-- Model comparison and evaluation
+## ✨ Features
 
-  ##  Project Structure
+* 🔍 Multiple Machine Learning Models:
 
-├── models/                 # Saved trained models  
-├── src/                    # Source code  
-├── IMDB_Dataset.csv        # Dataset  
-├── final_results.csv       # Model comparison results  
-├── interactive_system.py   # User input prediction system  
-├── main.py                 # Main training pipeline  
-├── README.md               # Project documentation  
+  * Naive Bayes
+  * Support Vector Machine (SVM)
+  * Logistic Regression
+
+*  Text Preprocessing:
+
+  * Tokenization
+  * Stopword Removal
+  * Lemmatization
+
+* 🧠 Feature Extraction Techniques:
+
+  * Bag of Words (BoW)
+  * TF-IDF
+  * Uni-grams and Bi-grams
+
+* 📊 Model Evaluation & Comparison
+
+
+
+## 📂 Dataset
+
+* Source: IMDb Movie Reviews Dataset
+* Total Samples: 50,000 reviews
+* Classes: Positive / Negative
+
+
+
+## 📊 Model Performance
+
+| Model               | Accuracy |
+| ------------------- | -------- |
+| Naive Bayes         | ~85%     |
+| Logistic Regression | ~89%     |
+| SVM                 | ~91%     |
+
+
+
+## 📸 Project Preview
+
+**This is how it's interface looks**:
+[!img alt]
+
+
+## 📁 Project Structure
+
+movie-sentiment-analysis/
+│
+├── data/              # Dataset files
+├── notebooks/         # Jupyter notebooks
+├── src/               # Source code
+├── models/            # Saved models
+├── requirements.txt   # Dependencies
+└── README.md
+
+
+##  Future Improvements
+
+*  Implement Deep Learning models (LSTM, BERT)
+*  Deploy as a web application (Flask / Streamlit)
+*  Build a real-time sentiment analysis API
+
+
+##  Example
+
+**Input:**
+
+
+"The movie was absolutely fantastic with great acting!"
+
+**Output:**
+
+
+Sentiment: Positive ✅
+
+
+## 👤 Author
+
+**Riya katiyar**
+
+* GitHub: https://github.com/riyakatiyar337-cpu
+* LinkedIn: https://linkedin.com/in/riya-katiyar-ai337
+
+
+
+##  Show Your Support
+
+If you found this project helpful, please ⭐ star the repository!
+
+
+
