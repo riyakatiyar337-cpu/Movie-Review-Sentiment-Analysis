@@ -45,8 +45,8 @@ It explores multiple Natural Language Processing (NLP) techniques and compares d
 | Model               | Accuracy |
 | ------------------- | -------- |
 | Naive Bayes         | ~85%     |
-| Logistic Regression | ~89%     |
-| SVM                 | ~91%     |
+| Logistic Regression | ~88%     |
+| SVM                 | ~%89    |
 
 
 
@@ -54,20 +54,10 @@ It explores multiple Natural Language Processing (NLP) techniques and compares d
 
 **This is how it's interface looks**:
 
-![Alt image](https://github.com/riyakatiyar337-cpu/Movie-Review-Sentiment-Analysis/blob/79e427813bdf20ceffe0832a6c99ff44feb09b56/movie_review-demo.png)
+<img width="738" height="592" alt="Screenshot 2026-04-17 235323" src="https://github.com/user-attachments/assets/73a5985a-c469-43c9-b21f-41d0f10895cb" />
 
 
 
-## 📁 Project Structure
-
-movie-sentiment-analysis/
-
-data/              # Dataset files
-notebooks/         # Jupyter notebooks
-src/               # Source code
-models/            # Saved models
-requirements.txt   # Dependencies
-README.md
 
 
 ##  Future Improvements
