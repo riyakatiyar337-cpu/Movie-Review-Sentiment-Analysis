@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <title>CineSentiment Analyzer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🎬 CineSentiment Analyzer</h1>
+
+      <textarea
+        id="review"
+        placeholder="Paste or type a movie review..."
+      ></textarea>
+
+      <div class="controls">
+        <select id="trueSentiment">
+          <option value="">Select True Sentiment</option>
+          <option value="positive">Positive</option>
+          <option value="negative">Negative</option>
+        </select>
+
+        
+
+    <select id="model">
+
+    <option value="">--Choose a Model--</option>
+
+    <option disabled style="color: yellow;"> ML MODELS </option>
+    <option value="svm">SVM</option>
+    <option value="logreg">Logistic Regression</option>
+    <option value="nb">Naive Bayes</option>
+    <option value="rf">Random Forest</option>
+
+    <option disabled style="color: cyan;"> DEEP LEARNING MODELS </option>
+    <option value="lstm">LSTM</option>
+    <option value="bilstm">BiLSTM</option>
+
+</select>
+      </div>
+      
+
+      <div class="button-group">
+        <button onclick="predictSentiment()">Analyze Sentiment</button>
+        <button onclick="compareModels()">Compare All Models</button>
+        <button onclick="loadLeaderboard()">Show Accuracy Leaderboard</button>
+      </div>
+
+      <!-- <button onclick="loadLeaderboard()">Show Accuracy Leaderboard</button> -->
+
+      <div id="leaderboard"></div>
+
+      <h2 id="result"></h2>
+      <div id="comparison"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
